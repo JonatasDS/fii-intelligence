@@ -1,0 +1,49 @@
+# Credenciais e variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Ambiente virtual Python
+.venv/
+venv/
+
+# Cache e arquivos temporários Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Logs do pipeline
+logs/
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# VS Code
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Power BI
+*.pbix
+
+# Arquivos locais/temporários do projeto
+*.zip
+
+# Backups
+backup/
+backups/
+# Dados gerados pelo pipeline
+b3_cotacoes_fiis.csv
+b3_cvm_nao_encontrados.csv
+b3_cvm_teste.csv
+b3_fiis_detalhes.csv
+b3_fiis_lista.csv
+b3_tickers_previa_atualizacao.csv
+cvm_fundamentos_fii.csv
+
+# Arquivos HTML usados em testes/diagnosticos
+alzr_b3.html
